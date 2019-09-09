@@ -1,0 +1,34 @@
+expect(x).toEqual(y); // object,array or complex type equal checks
+expect(x).toBe(y); // === 
+
+expect(x).toBeUndefined(y); // is undefined 
+expect(x).toBeDefined(y); // is toBeDefined
+
+expect(x).toBeNull(y); // is null
+
+expect(x).toBeTruthy(y); // is true
+expect(x).toBeFalsy(y); // is false
+
+expect(x).toBeLessThan(y); 
+expect(x).toBeGreaterThan(y);
+
+expect(function(){fn();}).thThrow(ex); // throw perticular exception
+
+
+for negotion just add .not.`
+ex : expect(x).not.toBeNull(y); // is null
+
+Write custom Matcher // IMP
+https://medium.com/bb-tutorials-and-thoughts/angular-how-to-add-jasmine-custom-matchers-in-unit-testing-3edd40f567ec
+mast ahe article read karne
+
+integrating with - DOM - is not useful i think
+
+
+Asycn Test remaining - in jasmine module
+
+.apply in javascript
+
+https://app.pluralsight.com/player?course=testing-javascript&author=joe-eames&name=testing-javascript-m4-mocking&clip=4&mode=live
+
+
